@@ -35,8 +35,7 @@ namespace EczaneOtomasyon
         public Bunifu.UI.WinForms.BunifuDataGridView getAllMedicines(Bunifu.UI.WinForms.BunifuDataGridView dataGridView)
         {
             baglanti.Open();
-            string query = "SELECT Ilaclar.BARKOD, Ilaclar.[ÜRÜN ADI], Ilaclar.[ETKİN MADDE],+" +
-                " Ilaclar.[RUHSAT SAHİBİ], Ilaclar.[RUHSAT TARİHİ], Ilaclar.[REÇETE TÜRÜ] FROM Ilaclar";
+            string query = "SELECT Ilaclar.Id, Ilaclar.Barkod, Ilaclar.UrunAdi, Ilaclar.KullanimYasi, Ilaclar.Fiyat FROM Ilaclar";
             OleDbDataAdapter adtr = new OleDbDataAdapter(query, baglanti);
             ds.Clear();
             adtr.Fill(ds, "Ilaclar");
