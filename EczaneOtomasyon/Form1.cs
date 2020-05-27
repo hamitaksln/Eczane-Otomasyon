@@ -54,8 +54,11 @@ namespace EczaneOtomasyon
                 ds.Clear();
                 ds = dbOperations.getSearchedMedicine(searchMedicineTextBox.Text);
                 medicinesDataGridView.DataSource = ds.Tables["Ilaclar"];
+            } else if(searchMedicineTextBox.Text.Length == 0)
+            {
+                medicinesDataGridView = dbOperations.getAllMedicines(medicinesDataGridView);
             }
-            
+
         }
 
     }
