@@ -1,6 +1,6 @@
 ﻿namespace EczaneOtomasyon
 {
-    partial class Form1
+    partial class EczaneForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EczaneForm));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
@@ -184,7 +184,7 @@
             this.eRecipeQueryPage.Location = new System.Drawing.Point(4, 22);
             this.eRecipeQueryPage.Name = "eRecipeQueryPage";
             this.eRecipeQueryPage.Padding = new System.Windows.Forms.Padding(3);
-            this.eRecipeQueryPage.Size = new System.Drawing.Size(1168, 673);
+            this.eRecipeQueryPage.Size = new System.Drawing.Size(1168, 670);
             this.eRecipeQueryPage.TabIndex = 1;
             this.eRecipeQueryPage.Text = "E-Reçete Sorgula";
             this.eRecipeQueryPage.UseVisualStyleBackColor = true;
@@ -242,7 +242,7 @@
             this.patientQueryPage.Location = new System.Drawing.Point(4, 22);
             this.patientQueryPage.Name = "patientQueryPage";
             this.patientQueryPage.Padding = new System.Windows.Forms.Padding(3);
-            this.patientQueryPage.Size = new System.Drawing.Size(1168, 673);
+            this.patientQueryPage.Size = new System.Drawing.Size(1168, 670);
             this.patientQueryPage.TabIndex = 2;
             this.patientQueryPage.Text = "Hasta Sorgula";
             this.patientQueryPage.UseVisualStyleBackColor = true;
@@ -254,7 +254,7 @@
             this.medicinesPage.Location = new System.Drawing.Point(4, 22);
             this.medicinesPage.Name = "medicinesPage";
             this.medicinesPage.Padding = new System.Windows.Forms.Padding(3);
-            this.medicinesPage.Size = new System.Drawing.Size(1168, 673);
+            this.medicinesPage.Size = new System.Drawing.Size(1168, 670);
             this.medicinesPage.TabIndex = 3;
             this.medicinesPage.Text = "İlaçlar";
             this.medicinesPage.UseVisualStyleBackColor = true;
@@ -403,7 +403,7 @@
             this.otherProductsPage.Location = new System.Drawing.Point(4, 22);
             this.otherProductsPage.Name = "otherProductsPage";
             this.otherProductsPage.Padding = new System.Windows.Forms.Padding(3);
-            this.otherProductsPage.Size = new System.Drawing.Size(1168, 673);
+            this.otherProductsPage.Size = new System.Drawing.Size(1168, 670);
             this.otherProductsPage.TabIndex = 4;
             this.otherProductsPage.Text = "Diğer Ürünler";
             this.otherProductsPage.UseVisualStyleBackColor = true;
@@ -500,7 +500,7 @@
             this.bunifuElipse3.ElipseRadius = 5;
             this.bunifuElipse3.TargetControl = this.medicinesDataGridView;
             // 
-            // Form1
+            // EczaneForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -509,8 +509,9 @@
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.materialTabControl1);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "EczaneForm";
             this.Sizable = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl1.ResumeLayout(false);
             this.homePage.ResumeLayout(false);
