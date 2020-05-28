@@ -58,17 +58,18 @@
             // 
             this.bunifuPictureBox2.AllowFocused = false;
             this.bunifuPictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox2.BorderRadius = 50;
+            this.bunifuPictureBox2.BorderRadius = 0;
             this.bunifuPictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox2.Image")));
-            this.bunifuPictureBox2.IsCircle = true;
+            this.bunifuPictureBox2.IsCircle = false;
             this.bunifuPictureBox2.Location = new System.Drawing.Point(240, 124);
             this.bunifuPictureBox2.Name = "bunifuPictureBox2";
             this.bunifuPictureBox2.Size = new System.Drawing.Size(100, 100);
             this.bunifuPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuPictureBox2.TabIndex = 0;
             this.bunifuPictureBox2.TabStop = false;
-            this.bunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.bunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
+            this.bunifuPictureBox2.Click += new System.EventHandler(this.bunifuPictureBox2_Click);
             // 
             // bunifuLabel1
             // 
@@ -108,6 +109,7 @@
             this.Controls.Add(this.bunifuPictureBox2);
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "HomeScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Ekran";
             this.Load += new System.EventHandler(this.HomeScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();

@@ -8,40 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
+using System.Data.OleDb;
 
 namespace EczaneOtomasyon
 {
-    public partial class HomeScreen : MaterialSkin.Controls.MaterialForm
+    public partial class IlacYaz : MaterialSkin.Controls.MaterialForm
     {
-        public HomeScreen()
+        public IlacYaz()
         {
             InitializeComponent();
-
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-        }
-
-        private void HomeScreen_Load(object sender, EventArgs e)
-        {
 
         }
 
-        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        private void IlacYaz_Load(object sender, EventArgs e)
         {
-            DoktorForm doktorForm = new DoktorForm();
-            this.Hide();
-            doktorForm.ShowDialog();
-            this.Close();
-        }
 
-        private void bunifuPictureBox2_Click(object sender, EventArgs e)
-        {
-            EczaneForm eczaneForm = new EczaneForm();
-            this.Hide();
-            eczaneForm.ShowDialog();
-            this.Close();
         }
     }
 }

@@ -78,11 +78,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBOperations.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="DoktorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DoktorForm.Designer.cs">
+      <DependentUpon>DoktorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EczaneForm.Designer.cs">
+      <DependentUpon>EczaneForm.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>
@@ -90,13 +96,25 @@
     <Compile Include="HomeScreen.Designer.cs">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="IlacYaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IlacYaz.Designer.cs">
+      <DependentUpon>IlacYaz.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="DoktorForm.resx">
+      <DependentUpon>DoktorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EczaneForm.resx">
+      <DependentUpon>EczaneForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IlacYaz.resx">
+      <DependentUpon>IlacYaz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
