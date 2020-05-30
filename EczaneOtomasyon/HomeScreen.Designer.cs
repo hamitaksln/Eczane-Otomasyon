@@ -103,7 +103,7 @@
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 50;
+            this.bunifuElipse1.ElipseRadius = 10;
             this.bunifuElipse1.TargetControl = this;
             // 
             // HomeScreen
@@ -115,7 +115,9 @@
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.bunifuPictureBox2);
             this.Controls.Add(this.bunifuPictureBox1);
+            this.MaximizeBox = false;
             this.Name = "HomeScreen";
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Ekran";
             this.Load += new System.EventHandler(this.HomeScreen_Load);

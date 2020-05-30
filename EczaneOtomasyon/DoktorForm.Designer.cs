@@ -822,7 +822,7 @@
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 50;
+            this.bunifuElipse1.ElipseRadius = 10;
             this.bunifuElipse1.TargetControl = this;
             // 
             // bunifuElipse2
@@ -834,7 +834,7 @@
             // 
             this.homeScreenButton.Active = false;
             this.homeScreenButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.homeScreenButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.homeScreenButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.homeScreenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.homeScreenButton.BorderRadius = 0;
             this.homeScreenButton.ButtonText = "Ana Ekran";
@@ -854,15 +854,15 @@
             this.homeScreenButton.IsTab = false;
             this.homeScreenButton.Location = new System.Drawing.Point(1082, 28);
             this.homeScreenButton.Name = "homeScreenButton";
-            this.homeScreenButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.homeScreenButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.homeScreenButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.homeScreenButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
             this.homeScreenButton.OnHoverTextColor = System.Drawing.Color.White;
             this.homeScreenButton.selected = false;
             this.homeScreenButton.Size = new System.Drawing.Size(96, 34);
             this.homeScreenButton.TabIndex = 6;
             this.homeScreenButton.Text = "Ana Ekran";
             this.homeScreenButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.homeScreenButton.Textcolor = System.Drawing.Color.White;
+            this.homeScreenButton.Textcolor = System.Drawing.Color.Black;
             this.homeScreenButton.TextFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.homeScreenButton.Click += new System.EventHandler(this.homeScreenButton_Click);
             // 
@@ -879,7 +879,9 @@
             this.Controls.Add(this.homeScreenButton);
             this.Controls.Add(this.materialTabControl1);
             this.Controls.Add(this.materialTabSelector1);
+            this.MaximizeBox = false;
             this.Name = "DoktorForm";
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doktor Arayüzü";
             this.Load += new System.EventHandler(this.DoktorForm_Load);
