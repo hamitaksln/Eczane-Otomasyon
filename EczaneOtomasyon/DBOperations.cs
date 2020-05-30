@@ -20,8 +20,9 @@ namespace EczaneOtomasyon
         public DataSet getSearchedMedicine(string medicineName)
         {
             baglanti.Open();
-            string query = "SELECT Ilaclar.Id, Ilaclar.Barkod, Ilaclar.UrunAdi, Ilaclar.EtkinMadde, Ilaclar.ReceteTuru," +
-                " Ilaclar.KullanimYasi, Ilaclar.Fiyat FROM Ilaclar " +
+            string query = "SELECT Ilaclar.Id as [İlaç ID], Ilaclar.Barkod, Ilaclar.UrunAdi as [Ürün Adı]," +
+                " Ilaclar.EtkinMadde as [Etkin Madde], Ilaclar.ReceteTuru as [Reçete Türü]," +
+                " Ilaclar.KullanimYasi as [Kullanım Yaşı], Ilaclar.Fiyat FROM Ilaclar " +
                 "WHERE (((Ilaclar.UrunAdi) Like '%" + medicineName + "%'))";
 
             Console.WriteLine(query);
