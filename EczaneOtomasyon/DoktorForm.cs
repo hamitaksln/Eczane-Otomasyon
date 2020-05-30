@@ -65,10 +65,6 @@ namespace EczaneOtomasyon
             medicinesDataGridView.Columns[0].Width = 10;
             medicinesDataGridView = dBOperations.getAllMedicines(medicinesDataGridView);
 
-            //foreach(DataGridViewColumn dgvc in medicinesDataGridView.Columns)
-            //{
-            //    writtenMedicineDataGridView.Columns.Add(dgvc.Clone() as DataGridViewColumn);
-            //}
             DataGridViewButtonColumn btn1 = new DataGridViewButtonColumn();
             btn1.HeaderText = "";
             btn1.Name = "button";
@@ -133,7 +129,7 @@ namespace EczaneOtomasyon
         {
             if (e.ColumnIndex == 0 && e.RowIndex != medicinesDataGridView.Rows.Count - 1)
             {
-                int medicineAgeLimit = Convert.ToInt32(medicinesDataGridView.Rows[e.RowIndex].Cells["KullanimYasi"].Value.ToString());
+                int medicineAgeLimit = Convert.ToInt32(medicinesDataGridView.Rows[e.RowIndex].Cells["Kullanım Yaşı"].Value.ToString());
                 if (isPatientSelected)
                 {
                     if (canTakeMedicine(patientAge, medicineAgeLimit))
@@ -202,11 +198,14 @@ namespace EczaneOtomasyon
             }
             else if (writtenMedicine <= 0)
             {
-                MessageBox.Show("En az 1 İlaç Seçiniz", "İla.",
+                MessageBox.Show("En az 1 İlaç Seçiniz", "İlaç",
                      MessageBoxButtons.OK, MessageBoxIcon.Error);
             } else
             {
                 dBOperations.insertRecipeToDatabase(1, patientTC, writtenMedicineDataGridView, recipeNoLabel);
+
+                MessageBox.Show("Reçete yazıldı!", "Reçete",
+                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -216,7 +215,16 @@ namespace EczaneOtomasyon
             if(recipeIdTextBox.Text.Length != 0)
             {
                 recipeMedicinesDataGridView = dBOperations.getRecipeMedicines(recipeMedicinesDataGridView, recipeIdTextBox.Text);
+                recipeMedicinesDataGridView.Columns.RemoveAt(recipeMedicinesDataGridView.Columns.Count - 1);
             }
+        }
+
+        private void homeScreenButton_Click(object sender, EventArgs e)
+        {
+            HomeScreen homeScreen= new HomeScreen();
+            this.Hide();
+            homeScreen.ShowDialog();
+            this.Close();
         }
     }
 }

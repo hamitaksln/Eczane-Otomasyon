@@ -16,7 +16,7 @@ namespace EczaneOtomasyon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DoktorForm());
+            Application.Run(new HomeScreen());
         }
     }
 }
