@@ -1,13 +1,22 @@
-<h3 align="center"> Erciyes Üniversitesi <br> Mühendislik Fakültesi <br> Bilgisayar Mühendisliği Bölümü<br>VTYS Vize Ödevi</h0>
+<div><h3 align="center"> Erciyes Üniversitesi <br> Mühendislik Fakültesi <br> Bilgisayar Mühendisliği Bölümü<br>VTYS Vize Ödevi</h0></div>
 
-**Numara**			 	: 1030516495
-**Ad Soyad**		: Emrah Batıgün
-**Numara**			 	: 1030516495
-**Ad Soyad**		: Kadir Ek
-**Numara**			 	: 1030516495
-**Ad Soyad**		: Ozan ...
-**Numara**			 	: 1030516495
-**Ad Soyad**		: Abdulhamit Akaslan
+<div>
+<p><b>Numara:</b>1030516689<br>
+<b>Ad Soyad:</b>Emrah Batıgün</p>
+</div>
+<div>
+<p><b>Numara:</b>1030516477<br>
+<b>Ad Soyad:</b>Kadir Ek</p>
+</div>
+<div>
+<p><b>Numara:</b>1030516643 <br>
+<b>Ad Soyad:</b>Ozan Danabaş</p>
+</div>
+<div>
+<p><b>Numara:</b>1030516495<br>
+<b>Ad Soyad:</b>Abdulhamit Akaslan</p>
+</div>
+
 *Döküman Markdown ile stackedit.io sitesinde hazırlandı. Daha iyi bir deneyim için .html uzantılı dosyadan çalıştırınız.*
 
 ### Bu otomasyon ile eczanenin çalışma sistemi daha kolay anlatılabilir. Bu vesileyle böyle bir görselleştirme yoluna gittik. C# Windows Form kullanılarak hazırlanmıştır. UI Framework olarak MaterialSkin ve Bunifu kullanılmıştır.
