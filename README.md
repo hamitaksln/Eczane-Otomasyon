@@ -1,4 +1,4 @@
-<h3 align="center"> Erciyes Üniversitesi <br> Mühendislik Fakültesi <br> Bilgisayar Mühendisliği Bölümü<br>VTYS Vize Ödevi</h0>
+<div><h3 align="center"> Erciyes Üniversitesi <br> Mühendislik Fakültesi <br> Bilgisayar Mühendisliği Bölümü<br>VTYS Vize Ödevi</h0></div>
 
 <div>
 <p><b>Numara:</b>1030516689<br>
@@ -8,6 +8,7 @@
 <p><b>Numara:</b>1030516477<br>
 <b>Ad Soyad:</b>Kadir Ek</p>
 </div>
+<div>
 <p><b>Numara:</b>1030516495<br>
 <b>Ad Soyad:</b>Abdulhamit Akaslan</p>
 </div>
@@ -16,9 +17,6 @@
 
 
 ### Bu otomasyon ile eczanenin çalışma sistemi daha kolay anlatılabilir. Bu vesileyle böyle bir görselleştirme yoluna gittik. C# Windows Form kullanılarak hazırlanmıştır. UI Framework olarak MaterialSkin ve Bunifu kullanılmıştır.
-<div  align="center">
-<a href="https://github.com/hamitaksln/Eczane-Otomasyon">Eczane Otomasyonu GitHUB</a>
-</div>
 
 <div align="center">
 <h3>Otomasyonda hem doktor hem de eczane girişi bulunmaktadır.</h3>
