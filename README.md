@@ -9,10 +9,6 @@
 <b>Ad Soyad:</b>Kadir Ek</p>
 </div>
 <div>
-<p><b>Numara:</b>1030516643 <br>
-<b>Ad Soyad:</b>Ozan Danabaş</p>
-</div>
-<div>
 <p><b>Numara:</b>1030516495<br>
 <b>Ad Soyad:</b>Abdulhamit Akaslan</p>
 </div>
