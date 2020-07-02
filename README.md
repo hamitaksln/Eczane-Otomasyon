@@ -19,42 +19,42 @@
 
 <div align="center">
 <h3>Otomasyonda hem doktor hem de eczane girişi bulunmaktadır.</h3>
-<img src="https://i.ibb.co/26b3ZpY/home-Screen.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/homeScreen.png">
 <h3>Hasta doktora gider. Doktorun sisteminde bütün hastalar mevcuttur. </h3>
-<img src="https://i.ibb.co/rvWnPJL/doctor-Patients.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorPatients.png">
 <h3>Doktor hastayı TC veya isim soyisim ile bulabilir.</h3>
-<img src="https://i.ibb.co/qsq8x9m/doctor-Patient-Search.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorPatientSearch.png">
 <h3>Doktor hastayı seçtikten sonra ilaç yazma ekranı gelir</h3>
-<img src="https://i.ibb.co/K6JGZXL/doctor-Write-Medicine.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorWriteMedicine.png">
 <h3>Yazacağı ilacın yaş sınırı bulunmaktadır. Bu yüzden yazacağı ilacın hastanın yaşına uygun olması gerekir.</h3>
-<img src="https://i.ibb.co/Jp8QCcm/doctor-Write-Medicine-Age-Limit.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorWriteMedicineAgeLimit.png">
 <h3>Doktor arama yaparak ta ilaçları bulabilir.</h3>
-<img src="https://i.ibb.co/WpfB8bS/doctor-Medicine-Search.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorMedicineSearch.png">
 <h3>Doktorun yazdığı ilaç sayısı sağ alttaki buttonda gösterilir ve o button'a bastığında yazılan ilaçlar sayfasına gider.</h3>
-<img src="https://i.ibb.co/qRpWCGt/doctor-Goto-Written-Medicines.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorGotoWrittenMedicines.png">
 <h3>Yazılan ilaçlar bu sayfada gösterilir.</h3>
-<img src="https://i.ibb.co/bmfkDCP/doctor-Written-Medicines.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorWrittenMedicines.png">
 <h3>Doktor reçeteyi yazdıra bastığı zaman reçete sisteme yüklenir ve reçete bir numaraya sahip olur. Bu numarayla hasta eczaneye gidip ilaçlarını alabilir.</h3>
-<img src="https://i.ibb.co/8MhpBXF/doctor-Written-Medicine-Succes.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorWrittenMedicineSucces.png">
 <h3>Doktor E-Reçete sorgulaması yapabilir.</h3>
-<img src="https://i.ibb.co/QkYsj6F/doctor-Searched-ERecipe.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/doctorSearchedERecipe.png">
 <h3>Sıra hastanın eczaneye gitmesine geliyor. </h3>
-<img src="https://i.ibb.co/BPx5kkk/Eczane-Main-Screen.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/EczaneMainScreen.png">
 <h3>Hasta eczaneye gittiği zaman eczane personeli reçete numara veya hasta kimlik numarasını alarak E-Reçete sorgu yapıyor.</h3>
-<img src="https://i.ibb.co/stQQRc0/eczane-Search-ERecipe.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneSearchERecipe.png">
 <h3>Hastanın sigorta türüne göre indirim yapılıyor. Eğer sigorta yoksa indirim yapılmıyor. Satış yapıldıktan sonra satılan ilaçlar, satın alan hasta, ne zaman satın alındığı ve hangi personelin satışı yaptığı veritabanına ekleniyor.</h3>
-<img src="https://i.ibb.co/TYy4Z3B/eczane-ERecipe-Sold-Succes.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneBasketSoldSucces.png">
 <h3>Reçete satışı yapıldıysa bu reçete üzerinden tekrar ilaç satışı yapılamıyor.</h3>
-<img src="https://i.ibb.co/s3ypBHm/eczane-ERecipe-Already-Soldand-Insurance.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneERecipeAlreadySoldandInsurance.png">
 <h3>Eczane sisteminde hasta sorgulama, ilaçlar ve diğer ürünler sekmeleride mevcut.</h3>
-<img src="https://i.ibb.co/J5yTrHT/eczane-Patient-Search.png">
-<img src="https://i.ibb.co/fdc57Pd/eczane-Medicine-Search.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczanePatientSearch.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneMedicineSearch.png">
 <h3>Diğer ürünler kısmında ürünlere çift tıklama yapılarak sepete atılabilir.</h3>
-<img src="https://i.ibb.co/Fzm8dTC/eczane-Other-Products.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneOtherProducts.png">
 <h3>Eklenen ürünler sepete gelir ve ardından satış yapılır.</h3>
-<img src="https://i.ibb.co/pJnsMbB/eczane-Basket.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneBasket.png">
 <h3>Satış yapıldıktan sonra satılan ürünler, ne zaman satıldığı ve hangi personelin sattığı veritabanına kayıt edilmektedir.</h3>
-<img src="https://i.ibb.co/3CDNCys/eczane-Basket-Sold-Succes.png">
+<img src="https://github.com/hamitaksln/Eczane-Otomasyon/blob/master/Screenshots/eczaneBasketSoldSucces.png">
 </div>
 
 <div align="center"><h1>NORMALİZASYON</h1>
