@@ -1,3 +1,11 @@
+<div align="center">
+	<h1>ECZANE OTOMASYONU</h1>
+	<h3>Direkt olarak indirip çalıştırmak için <a href='https://drive.google.com/file/d/1ZFOx9g9-iFRYP8k7tbZdEOIoqjgoq0od/view?usp=sharing'>tıklayın</a>
+	</h3>
+	<h3>
+	Access DB kullanabilmek için bu paketi <a href='https://www.microsoft.com/en-us/download/confirmation.aspx?id=13255'>indirebilirsiniz</a>
+</h3>
+</div>
 <div><h3 align="center"> Erciyes Üniversitesi <br> Mühendislik Fakültesi <br> Bilgisayar Mühendisliği Bölümü<br>VTYS Vize Ödevi</h0></div>
 
 <div>
@@ -364,8 +372,3 @@ WHERE (((Hastane.Tur)="Özel"));
 ```
 <div align="center"><img src="https://i.ibb.co/Fg89Vwp/15.png">
 </div>
-
-
-
-
-
